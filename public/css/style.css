@@ -1,0 +1,39 @@
+nav {
+   background: rgb(0, 0, 0);
+}
+.imgresponsive{
+   width: 100%;
+   height: fit-content;
+}
+.contenedor{
+   position: relative;
+   display: inline-block;
+   text-align: center;
+}
+.texto-encima{
+   position: absolute;
+   top: 60px;
+   left: 60px;
+   right: 60px;
+}
+.centrado{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.centrar{
+   text-align: center;
+}
+
+.texto{
+   font-family: Comic Sans MS,Arial,Verdana;
+}
+.fondoimg {
+   background-image: url(../img/laravel-fondo.png);
+   -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+   -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+     -o-background-size: 100% 100%;           /* Opera 9.5 */
+        background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+/* C:\xampp\htdocs\Back-end\Unidad1\ExamenU1\public\img */
