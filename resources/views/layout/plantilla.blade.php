@@ -20,8 +20,8 @@
 
         <a href="/"><img src="{{ asset('img/index/laravel-icon.png') }}" width="150" height="80"></a>
         <a class="nav-link" href="#" style="color:deepskyblue;"></a>
-        <b class="nav-pills" href="#" style="color:deepskyblue;"><i class="fab fa-laravel"></i>
-            Examen U1 </b>
+        <a class="nav-pills" href="/" style="color:deepskyblue;"><i class="fab fa-laravel"></i>
+            Examen U1 </a>
 
 
         <ul class="nav nav-pills">
