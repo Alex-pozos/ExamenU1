@@ -37,14 +37,14 @@
                             En mi caso vamos a instalar Xampp:
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/xampp.jpg') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/xampp.jpg') }}" alt="">
                         </p>
                         <p class="lead mt-3" style="text-align: justify">
                             Descargaremos el manejador de dependencias, en este ejemplo lo vamos a hacer con composer ya que
                             es una herramienta de fácil manejo y amigable con laravel.
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/composer.png') }}" alt="" height="300" width="350">
+                            <img  src="{{ asset('img/index/composer.png') }}" alt="" height="300" width="350">
                         </p>
                         <p style="text-align:center">
                             Dependency Manager For PHP
@@ -53,14 +53,14 @@
                             Verificaremos con el comando “composer -v” para ver si ya está instalado composer.
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/version_composer.png') }}" alt="">
+                            <img  src="{{ asset('img/index/version_composer.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             También deberemos de instalar Node js ya que esto nos permitirá habilitar la interfaz de línea
                             de comandos de nuestro ordenador.
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/nodejs.png') }}" alt="" height="300" width="300">
+                            <img  src="{{ asset('img/index/nodejs.png') }}" alt="" height="300" width="300">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Una vez que ya hallamos instalado las herramientas antes mencionadas abriremos la terminal de
@@ -69,33 +69,33 @@
                             U1” Ejemplo de la ruta C:\xampp\htdocs\Back-end\ExamenU1
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/ruta.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/ruta.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Con el siguiente comando vamos a instalar laravel “#composer global require laravel/installer”
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/instalacion_composer.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/instalacion_composer.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Una vez que ya tengamos instalado todo lo necesario comenzaremos con la creación del proyecto en
                             laravel con el siguiente comando, “composer create-project laravel/laravel ExamenU1”.
                         </p>
                         <p style="text-align: center">
-                            <img src="{{ asset('img/creacion_proyecto.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/creacion_proyecto.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Esperaremos un poco a qué termine de crear los ficheros, la estructura de nuestro proyecto y la
                             descarga de datos que este requiere.
                         </p>
                         <p style="text-align: center">
-                            <img src="{{ asset('img/descarga.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/descarga.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Una vez terminado nos mandara el siguiente mensaje de que se creó satisfactoriamente.
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/fin.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/fin.png') }}" alt="">
                         </p>
                         <p class="lead" style="text-align: justify">
                             Ahora nos vamos a dirigir a la carpeta donde se aloja nuestro proyecto y veremos si se creó
@@ -104,7 +104,7 @@
                             Y efectivamente se creó el proyecto con todos sus datos.
                         </p>
                         <p style="text-align:center">
-                            <img src="{{ asset('img/ruta_pc.png') }}" alt="">
+                            <img class="imgresponsive" src="{{ asset('img/index/ruta_pc.png') }}" alt="">
                         </p>
                     </div>
                 </div>

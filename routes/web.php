@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/vistas', function () {
+    return view('vistas.vistas');
+});
+Route::get('/rutas', function () {
+    return view('vistas.rutas');
+});
+Route::get('/controladores', function () {
+    return view('vistas.controladores');
+});
+Route::get('/migraciones', function () {
+    return view('vistas.migraciones');
+});
